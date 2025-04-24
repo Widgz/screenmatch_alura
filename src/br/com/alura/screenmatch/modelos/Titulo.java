@@ -8,6 +8,11 @@ public class Titulo {
     private double sumOfRatings;
     private int ratingCount;
 
+    public Titulo(String name, int releaseYear) {
+        this.name = name;
+        this.releaseYear = releaseYear;
+    }
+
     public String getName() {
         return name;
     }
